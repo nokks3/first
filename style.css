@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.card{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+
+}
+.card-img{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-text{
+    width: 100%;
+    padding:20px 30px;
+    
+}
+.card-text h2{
+    margin-bottom: 20px;
+}
+.logo{
+    height: 10px;
+    width: 100px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.logo img{
+    width: 20px;
+    margin-right: 5px;
+}
